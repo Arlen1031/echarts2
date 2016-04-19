@@ -8,16 +8,16 @@
 define(function (require) {
     var ecData = require('../util/ecData');
     
-    var CircleShape = require('zrenderjs/shape/Circle');
-    var ImageShape = require('zrenderjs/shape/Image');
-    var curveTool = require('zrenderjs/tool/curve');
+    var CircleShape = require('zrender2/shape/Circle');
+    var ImageShape = require('zrender2/shape/Image');
+    var curveTool = require('zrender2/tool/curve');
     var IconShape = require('../util/shape/Icon');
     var SymbolShape = require('../util/shape/Symbol');
-    var ShapeBundle = require('zrenderjs/shape/ShapeBundle');
-    var Polyline = require('zrenderjs/shape/Polyline');
-    var vec2 = require('zrenderjs/tool/vector');
+    var ShapeBundle = require('zrender2/shape/ShapeBundle');
+    var Polyline = require('zrender2/shape/Polyline');
+    var vec2 = require('zrender2/tool/vector');
 
-    var canvasSupported = require('zrenderjs/tool/env').canvasSupported;
+    var canvasSupported = require('zrender2/tool/env').canvasSupported;
     
     function point(zr, effectList, shape, zlevel) {
         var effect = shape.effect;

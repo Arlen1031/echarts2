@@ -6,9 +6,9 @@
  * shape类：handlePolygon，dataRange手柄
  */
 define(function (require) {
-    var Base = require('zrenderjs/shape/Base');
-    var PolygonShape = require('zrenderjs/shape/Polygon');
-    var zrUtil = require('zrenderjs/tool/util');
+    var Base = require('zrender2/shape/Base');
+    var PolygonShape = require('zrender2/shape/Polygon');
+    var zrUtil = require('zrender2/tool/util');
 
     function HandlePolygon(options) {
         Base.call(this, options);

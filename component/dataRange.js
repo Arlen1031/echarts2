@@ -9,8 +9,8 @@ define(function (require) {
     var Base = require('./base');
 
     // 图形依赖
-    var TextShape = require('zrenderjs/shape/Text');
-    var RectangleShape = require('zrenderjs/shape/Rectangle');
+    var TextShape = require('zrender2/shape/Text');
+    var RectangleShape = require('zrender2/shape/Rectangle');
     var HandlePolygonShape = require('../util/shape/HandlePolygon');
 
     var ecConfig = require('../config');
@@ -61,10 +61,10 @@ define(function (require) {
         }
     };
 
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrEvent = require('zrenderjs/tool/event');
-    var zrArea = require('zrenderjs/tool/area');
-    var zrColor = require('zrenderjs/tool/color');
+    var zrUtil = require('zrender2/tool/util');
+    var zrEvent = require('zrender2/tool/event');
+    var zrArea = require('zrender2/tool/area');
+    var zrColor = require('zrender2/tool/color');
 
     /**
      * 构造函数
@@ -298,7 +298,7 @@ define(function (require) {
                 }
             }
 
-            var zrColor = require('zrenderjs/tool/color');
+            var zrColor = require('zrender2/tool/color');
             var per = 1 / (this.dataRangeOption.color.length - 1);
             var colorList = [];
             for (var i = 0, l = this.dataRangeOption.color.length; i < l; i++) {

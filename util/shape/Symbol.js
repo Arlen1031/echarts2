@@ -32,10 +32,10 @@
    }
  */
 define(function (require) {
-    var Base = require('zrenderjs/shape/Base');
-    var PolygonShape = require('zrenderjs/shape/Polygon');
+    var Base = require('zrender2/shape/Base');
+    var PolygonShape = require('zrender2/shape/Polygon');
     var polygonInstance = new PolygonShape({});
-    var zrUtil = require('zrenderjs/tool/util');
+    var zrUtil = require('zrender2/tool/util');
 
     function Symbol(options) {
         Base.call(this, options);
@@ -150,7 +150,7 @@ define(function (require) {
             );
             var data = pixels.data;
             var idx;
-            var zrColor = require('zrenderjs/tool/color');
+            var zrColor = require('zrender2/tool/color');
             var color = zrColor.toArray(style.color);
             var r = color[0];
             var g = color[1];

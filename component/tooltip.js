@@ -10,8 +10,8 @@ define(function (require) {
     
     // 图形依赖
     var CrossShape = require('../util/shape/Cross');
-    var LineShape = require('zrenderjs/shape/Line');
-    var RectangleShape = require('zrenderjs/shape/Rectangle');
+    var LineShape = require('zrender2/shape/Line');
+    var RectangleShape = require('zrender2/shape/Rectangle');
     var rectangleInstance = new RectangleShape({});
     
     var ecConfig = require('../config');
@@ -59,12 +59,12 @@ define(function (require) {
     };
 
     var ecData = require('../util/ecData');
-    var zrConfig = require('zrenderjs/config');
-    var zrEvent = require('zrenderjs/tool/event');
-    var zrArea = require('zrenderjs/tool/area');
-    var zrColor = require('zrenderjs/tool/color');
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrShapeBase = require('zrenderjs/shape/Base');
+    var zrConfig = require('zrender2/config');
+    var zrEvent = require('zrender2/tool/event');
+    var zrArea = require('zrender2/tool/area');
+    var zrColor = require('zrender2/tool/color');
+    var zrUtil = require('zrender2/tool/util');
+    var zrShapeBase = require('zrender2/shape/Base');
 
     /**
      * 构造函数

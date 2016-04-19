@@ -10,11 +10,11 @@ define(function (require) {
     
     // 图形依赖
     var GaugePointerShape = require('../util/shape/GaugePointer');
-    var TextShape = require('zrenderjs/shape/Text');
-    var LineShape = require('zrenderjs/shape/Line');
-    var RectangleShape = require('zrenderjs/shape/Rectangle');
-    var CircleShape = require('zrenderjs/shape/Circle');
-    var SectorShape = require('zrenderjs/shape/Sector');
+    var TextShape = require('zrender2/shape/Text');
+    var LineShape = require('zrender2/shape/Line');
+    var RectangleShape = require('zrender2/shape/Rectangle');
+    var CircleShape = require('zrender2/shape/Circle');
+    var SectorShape = require('zrender2/shape/Sector');
 
     var ecConfig = require('../config');
     // 仪表盘默认参数
@@ -95,7 +95,7 @@ define(function (require) {
 
     var ecData = require('../util/ecData');
     var accMath = require('../util/accMath');
-    var zrUtil = require('zrenderjs/tool/util');
+    var zrUtil = require('zrender2/tool/util');
     
     /**
      * 构造函数

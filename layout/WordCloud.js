@@ -34,7 +34,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 define(function (require) {
     var ZeroArray = require('../layout/WordCloudRectZero');
-    var zrUtil = require('zrenderjs/tool/util');
+    var zrUtil = require('zrender2/tool/util');
 
     function CloudLayout(option) {
         this._init(option);

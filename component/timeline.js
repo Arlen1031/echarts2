@@ -9,7 +9,7 @@ define(function (require) {
     var Base = require('./base');
     
     // 图形依赖
-    var RectangleShape = require('zrenderjs/shape/Rectangle');
+    var RectangleShape = require('zrender2/shape/Rectangle');
     var IconShape = require('../util/shape/Icon');
     var ChainShape = require('../util/shape/Chain');
     
@@ -74,9 +74,9 @@ define(function (require) {
         // data: []
     };
 
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrArea = require('zrenderjs/tool/area');
-    var zrEvent = require('zrenderjs/tool/event');
+    var zrUtil = require('zrender2/tool/util');
+    var zrArea = require('zrender2/tool/area');
+    var zrEvent = require('zrender2/tool/event');
 
     /**
      * 构造函数

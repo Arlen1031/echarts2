@@ -9,10 +9,10 @@ define(function (require) {
     var Base = require('./base');
     
     // 图形依赖
-    var TextShape = require('zrenderjs/shape/Text');
-    var RectangleShape = require('zrenderjs/shape/Rectangle');
-    var SectorShape = require('zrenderjs/shape/Sector');
-    //var BeziercurveShape = require('zrenderjs/shape/Beziercurve');
+    var TextShape = require('zrender2/shape/Text');
+    var RectangleShape = require('zrender2/shape/Rectangle');
+    var SectorShape = require('zrender2/shape/Sector');
+    //var BeziercurveShape = require('zrender2/shape/Beziercurve');
     var IconShape = require('../util/shape/Icon');
     var CandleShape = require('../util/shape/Candle');
     
@@ -47,8 +47,8 @@ define(function (require) {
         // data: [],               // 图例内容（详见legend.data，数组中每一项代表一个item
     };
 
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrArea = require('zrenderjs/tool/area');
+    var zrUtil = require('zrender2/tool/util');
+    var zrArea = require('zrender2/tool/area');
 
     /**
      * 构造函数

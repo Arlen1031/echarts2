@@ -9,9 +9,9 @@ define(function (require) {
     var Base = require('./base');
     
     // 图形依赖
-    var LineShape = require('zrenderjs/shape/Line');
-    var ImageShape = require('zrenderjs/shape/Image');
-    var RectangleShape = require('zrenderjs/shape/Rectangle');
+    var LineShape = require('zrender2/shape/Line');
+    var ImageShape = require('zrender2/shape/Image');
+    var RectangleShape = require('zrender2/shape/Rectangle');
     var IconShape = require('../util/shape/Icon');
     
     var ecConfig = require('../config');
@@ -106,9 +106,9 @@ define(function (require) {
         }
     };
 
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrConfig = require('zrenderjs/config');
-    var zrEvent = require('zrenderjs/tool/event');
+    var zrUtil = require('zrender2/tool/util');
+    var zrConfig = require('zrender2/config');
+    var zrEvent = require('zrender2/tool/event');
     
     var _MAGICTYPE_STACK = 'stack';
     var _MAGICTYPE_TILED = 'tiled';

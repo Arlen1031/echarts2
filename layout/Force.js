@@ -6,7 +6,7 @@
 define(function(require) {
 
     var ForceLayoutWorker = require('./forceLayoutWorker');
-    var vec2 = require('zrenderjs/tool/vector');
+    var vec2 = require('zrender2/tool/vector');
 
     var requestAnimationFrame = window.requestAnimationFrame
                                 || window.msRequestAnimationFrame

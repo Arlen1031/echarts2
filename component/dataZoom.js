@@ -9,8 +9,8 @@ define(function (require) {
     var Base = require('./base');
 
     // 图形依赖
-    var RectangleShape = require('zrenderjs/shape/Rectangle');
-    var PolygonShape = require('zrenderjs/shape/Polygon');
+    var RectangleShape = require('zrender2/shape/Rectangle');
+    var PolygonShape = require('zrender2/shape/Polygon');
     var IconShape = require('../util/shape/Icon');
 
     var ecConfig = require('../config');
@@ -42,7 +42,7 @@ define(function (require) {
     };
 
     var ecDate = require('../util/date');
-    var zrUtil = require('zrenderjs/tool/util');
+    var zrUtil = require('zrender2/tool/util');
 
     /**
      * 构造函数
@@ -537,7 +537,7 @@ define(function (require) {
                 brushType: 'fill',
                 color : 'rgba(0,0,0,0)'
                 /*
-                color : require('zrenderjs/tool/color').alpha(
+                color : require('zrender2/tool/color').alpha(
                             this._fillerShae.style.color, 0
                         )
                 */

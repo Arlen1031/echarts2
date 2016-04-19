@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/NPM365/echarts2#readme",
   "dependencies": {
-    "zrenderjs": "^2.1.1"
+    "zrender2": "^2.1.1"
   }
 }

@@ -9,11 +9,11 @@ define(function (require) {
     var ChartBase = require('./base');
 
     // 图形依赖
-    var TextShape = require('zrenderjs/shape/Text');
-    var RingShape = require('zrenderjs/shape/Ring');
-    var CircleShape = require('zrenderjs/shape/Circle');
-    var SectorShape = require('zrenderjs/shape/Sector');
-    var PolylineShape = require('zrenderjs/shape/Polyline');
+    var TextShape = require('zrender2/shape/Text');
+    var RingShape = require('zrender2/shape/Ring');
+    var CircleShape = require('zrender2/shape/Circle');
+    var SectorShape = require('zrender2/shape/Sector');
+    var PolylineShape = require('zrender2/shape/Polyline');
 
     var ecConfig = require('../config');
     // 饼图默认参数
@@ -77,9 +77,9 @@ define(function (require) {
     };
 
     var ecData = require('../util/ecData');
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrMath = require('zrenderjs/tool/math');
-    var zrColor = require('zrenderjs/tool/color');
+    var zrUtil = require('zrender2/tool/util');
+    var zrMath = require('zrender2/tool/math');
+    var zrColor = require('zrender2/tool/color');
 
     /**
      * 构造函数

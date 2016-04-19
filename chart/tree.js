@@ -10,9 +10,9 @@ define(function (require) {
     var GOLDEN_SECTION = 0.618;
     // 图形依赖
     var IconShape = require('../util/shape/Icon');
-    var ImageShape = require('zrenderjs/shape/Image');
-    var LineShape = require('zrenderjs/shape/Line');
-    var BezierCurveShape = require('zrenderjs/shape/BezierCurve');
+    var ImageShape = require('zrender2/shape/Image');
+    var LineShape = require('zrender2/shape/Line');
+    var BezierCurveShape = require('zrender2/shape/BezierCurve');
     // 布局依赖
     var TreeLayout = require('../layout/Tree');
     // 数据依赖
@@ -54,9 +54,9 @@ define(function (require) {
     };
 
     var ecData = require('../util/ecData');
-    var zrConfig = require('zrenderjs/config');
-    var zrEvent = require('zrenderjs/tool/event');
-    var zrUtil = require('zrenderjs/tool/util');
+    var zrConfig = require('zrender2/config');
+    var zrEvent = require('zrender2/tool/event');
+    var zrUtil = require('zrender2/tool/util');
 
     /**
      * 构造函数

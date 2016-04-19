@@ -28,8 +28,8 @@
    }
  */
 define(function (require) {
-    var Base = require('zrenderjs/shape/Base');
-    var zrUtil = require('zrenderjs/tool/util');
+    var Base = require('zrender2/shape/Base');
+    var zrUtil = require('zrender2/tool/util');
 
     function GaugePointer(options) {
         Base.call(this, options);

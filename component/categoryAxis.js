@@ -9,9 +9,9 @@ define(function (require) {
     var Base = require('./base');
     
     // 图形依赖
-    var TextShape = require('zrenderjs/shape/Text');
-    var LineShape = require('zrenderjs/shape/Line');
-    var RectangleShape = require('zrenderjs/shape/Rectangle');
+    var TextShape = require('zrender2/shape/Text');
+    var LineShape = require('zrender2/shape/Line');
+    var RectangleShape = require('zrender2/shape/Rectangle');
     
     var ecConfig = require('../config');
     // 类目轴
@@ -73,8 +73,8 @@ define(function (require) {
         }
     };
 
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrArea = require('zrenderjs/tool/area');
+    var zrUtil = require('zrender2/tool/util');
+    var zrArea = require('zrender2/tool/area');
     
     /**
      * 构造函数

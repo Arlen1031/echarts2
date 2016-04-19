@@ -9,11 +9,11 @@ define(function (require) {
     var Base = require('./base');
 
     // 图形依赖
-    var TextShape = require('zrenderjs/shape/Text');
-    var LineShape = require('zrenderjs/shape/Line');
-    var PolygonShape = require('zrenderjs/shape/Polygon');
-    var Circle = require('zrenderjs/shape/Circle');
-    var Ring = require('zrenderjs/shape/Ring');
+    var TextShape = require('zrender2/shape/Text');
+    var LineShape = require('zrender2/shape/Line');
+    var PolygonShape = require('zrender2/shape/Polygon');
+    var Circle = require('zrender2/shape/Circle');
+    var Ring = require('zrender2/shape/Ring');
 
     var ecConfig = require('../config');
     ecConfig.polar = {
@@ -63,7 +63,7 @@ define(function (require) {
         // indicator: []
     };
 
-    var zrUtil = require('zrenderjs/tool/util');
+    var zrUtil = require('zrender2/tool/util');
     var ecCoordinates = require('../util/coordinates');
 
     function Polar(ecTheme, messageCenter, zr, option, myChart) {

@@ -7,12 +7,12 @@
  */
 define(function (require) {
     // 图形依赖
-    var ImageShape = require('zrenderjs/shape/Image');
+    var ImageShape = require('zrender2/shape/Image');
     var IconShape = require('../util/shape/Icon');
     var MarkLineShape = require('../util/shape/MarkLine');
     var SymbolShape = require('../util/shape/Symbol');
-    var PolylineShape = require('zrenderjs/shape/Polyline');
-    var ShapeBundle = require('zrenderjs/shape/ShapeBundle');
+    var PolylineShape = require('zrender2/shape/Polyline');
+    var ShapeBundle = require('zrender2/shape/ShapeBundle');
     
     var ecConfig = require('../config');
     var ecData = require('../util/ecData');
@@ -22,8 +22,8 @@ define(function (require) {
     var ComponentBase = require('../component/base');
     var EdgeBundling = require('../layout/EdgeBundling');
 
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrArea = require('zrenderjs/tool/area');
+    var zrUtil = require('zrender2/tool/util');
+    var zrArea = require('zrender2/tool/area');
 
     // Some utility functions
     function isCoordAvailable(coord) {

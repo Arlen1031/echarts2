@@ -9,9 +9,9 @@ define(function (require) {
     var ChartBase = require('./base');
     // 图形依赖
 
-    var TextShape = require('zrenderjs/shape/Text');
-    var CircleShape = require('zrenderjs/shape/Circle');
-    var PathShape = require('zrenderjs/shape/Path');
+    var TextShape = require('zrender2/shape/Text');
+    var CircleShape = require('zrender2/shape/Circle');
+    var PathShape = require('zrender2/shape/Path');
 
     var ecConfig = require('../config');
     // 维恩图默认参数
@@ -22,7 +22,7 @@ define(function (require) {
     };
 
     var ecData = require('../util/ecData');
-    var zrUtil = require('zrenderjs/tool/util');
+    var zrUtil = require('zrender2/tool/util');
 
     /**
      * 构造函数

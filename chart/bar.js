@@ -9,7 +9,7 @@ define(function (require) {
     var ChartBase = require('./base');
     
     // 图形依赖
-    var RectangleShape = require('zrenderjs/shape/Rectangle');
+    var RectangleShape = require('zrender2/shape/Rectangle');
     // 组件依赖
     require('../component/axis');
     require('../component/grid');
@@ -60,8 +60,8 @@ define(function (require) {
     };
 
     var ecData = require('../util/ecData');
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrColor = require('zrenderjs/tool/color');
+    var zrUtil = require('zrender2/tool/util');
+    var zrColor = require('zrender2/tool/color');
     
     /**
      * 构造函数

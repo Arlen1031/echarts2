@@ -12,12 +12,12 @@ define(function (require) {
     var ChartBase = require('./base');
     
     // 图形依赖
-    var TextShape = require('zrenderjs/shape/Text');
-    var LineShape = require('zrenderjs/shape/Line');
-    var SectorShape = require('zrenderjs/shape/Sector');
+    var TextShape = require('zrender2/shape/Text');
+    var LineShape = require('zrender2/shape/Line');
+    var SectorShape = require('zrender2/shape/Sector');
     var RibbonShape = require('../util/shape/Ribbon');
     var IconShape = require('../util/shape/Icon');
-    var BezierCurveShape = require('zrenderjs/shape/BezierCurve');
+    var BezierCurveShape = require('zrender2/shape/BezierCurve');
     
     var ecConfig = require('../config');
     // 和弦图默认参数
@@ -113,8 +113,8 @@ define(function (require) {
     };
 
     var ecData = require('../util/ecData');
-    var zrUtil = require('zrenderjs/tool/util');
-    var vec2 = require('zrenderjs/tool/vector');
+    var zrUtil = require('zrender2/tool/util');
+    var vec2 = require('zrender2/tool/vector');
     var Graph = require('../data/Graph');
     var ChordLayout = require('../layout/Chord');
     

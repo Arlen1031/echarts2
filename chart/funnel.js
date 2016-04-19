@@ -9,9 +9,9 @@ define(function (require) {
     var ChartBase = require('./base');
     
     // 图形依赖
-    var TextShape = require('zrenderjs/shape/Text');
-    var LineShape = require('zrenderjs/shape/Line');
-    var PolygonShape = require('zrenderjs/shape/Polygon');
+    var TextShape = require('zrender2/shape/Text');
+    var LineShape = require('zrender2/shape/Line');
+    var PolygonShape = require('zrender2/shape/Polygon');
 
     var ecConfig = require('../config');
     // 漏斗图默认参数
@@ -70,9 +70,9 @@ define(function (require) {
 
     var ecData = require('../util/ecData');
     var number = require('../util/number');
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrColor = require('zrenderjs/tool/color');
-    var zrArea = require('zrenderjs/tool/area');
+    var zrUtil = require('zrender2/tool/util');
+    var zrColor = require('zrender2/tool/color');
+    var zrArea = require('zrender2/tool/area');
     
     /**
      * 构造函数

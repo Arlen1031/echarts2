@@ -6,7 +6,7 @@
  */
 define(function(require) {
 
-    var util = require('zrenderjs/tool/util');
+    var util = require('zrender2/tool/util');
 
     'use strict';
 

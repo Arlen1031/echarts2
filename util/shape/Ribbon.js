@@ -32,10 +32,10 @@
  *                                可以是top, bottom, middle, alphabetic, hanging, ideographic
  */
 define(function (require) {
-    var Base = require('zrenderjs/shape/Base');
-    var PathProxy = require('zrenderjs/shape/util/PathProxy');
-    var zrUtil = require('zrenderjs/tool/util');
-    var area = require('zrenderjs/tool/area');
+    var Base = require('zrender2/shape/Base');
+    var PathProxy = require('zrender2/shape/util/PathProxy');
+    var zrUtil = require('zrender2/tool/util');
+    var area = require('zrender2/tool/area');
 
     // var _ctx = zrUtil.getContext();
     

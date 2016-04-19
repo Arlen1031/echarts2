@@ -20,9 +20,9 @@ define(function (require) {
     var ecConfig = require('../config');
     var ecData = require('../util/ecData');
 
-    var zrUtil = require('zrenderjs/tool/util');
-    var zrColor = require('zrenderjs/tool/color');
-    var zrImage = require('zrenderjs/shape/Image');
+    var zrUtil = require('zrender2/tool/util');
+    var zrColor = require('zrender2/tool/color');
+    var zrImage = require('zrender2/shape/Image');
 
     ecConfig.heatmap = {
         zlevel: 0,

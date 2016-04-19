@@ -5,7 +5,7 @@
  */
 define(function (require) {
 
-    var vec2 = require('zrenderjs/tool/vector');
+    var vec2 = require('zrender2/tool/vector');
 
     function TreeLayout(opts) {
 

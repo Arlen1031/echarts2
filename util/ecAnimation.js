@@ -6,8 +6,8 @@
  *
  */
 define(function (require) {
-    var zrUtil = require('zrenderjs/tool/util');
-    var curveTool = require('zrenderjs/tool/curve');
+    var zrUtil = require('zrender2/tool/util');
+    var curveTool = require('zrender2/tool/curve');
     
     /**
      * 折线型动画
@@ -354,7 +354,7 @@ define(function (require) {
      * @param {tring} easing
      */
     function polygon(zr, oldShape, newShape, duration, easing) {
-        var rect = require('zrenderjs/shape/Polygon').prototype.getRect(newShape.style);
+        var rect = require('zrender2/shape/Polygon').prototype.getRect(newShape.style);
         var x = rect.x + rect.width / 2;
         var y = rect.y + rect.height / 2;
         
