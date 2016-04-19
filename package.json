@@ -1,6 +1,6 @@
 {
   "name": "echarts2",
-  "version": "2.2.7000001",
+  "version": "2.2.7000101",
   "description": "echarts 2, fork from https://github.com/ecomfe/echarts.git",
   "main": "echarts.js",
   "scripts": {
