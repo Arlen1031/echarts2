@@ -1,8 +1,8 @@
 {
   "name": "echarts2",
-  "version": "2.2.7",
+  "version": "2.2.7000001",
   "description": "echarts 2, fork from https://github.com/ecomfe/echarts.git",
-  "main": "echart.js",
+  "main": "echarts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
