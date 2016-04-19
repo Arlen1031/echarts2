@@ -1,0 +1,29 @@
+{
+  "name": "echarts2",
+  "version": "2.2.7",
+  "description": "echarts 2, fork from https://github.com/ecomfe/echarts.git",
+  "main": "echart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NPM365/echarts2.git"
+  },
+  "keywords": [
+    "echarts",
+    "echarts2",
+    "chart",
+    "2.2.7",
+    "2.2.8"
+  ],
+  "author": "Wei Fei",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/NPM365/echarts2/issues"
+  },
+  "homepage": "https://github.com/NPM365/echarts2#readme",
+  "dependencies": {
+    "zrenderjs": "^2.1.1"
+  }
+}
